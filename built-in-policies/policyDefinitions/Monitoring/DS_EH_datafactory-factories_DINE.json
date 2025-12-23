@@ -35,13 +35,12 @@
         "type": "String",
         "metadata": {
           "displayName": "Category Group",
-          "description": "Diagnostic category group - none, audit, or allLogs."
+          "description": "Diagnostic category group - allLogs is the only option for ADF."
         },
         "allowedValues": [
-          "audit",
           "allLogs"
         ],
-        "defaultValue": "audit"
+        "defaultValue": "allLogs"
       },
       "resourceLocation": {
         "type": "string",
